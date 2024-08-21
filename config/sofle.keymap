@@ -50,7 +50,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp C_NEXT C_PREV>;
+                <&inc_dec_kp C_PREV C_NEXT>;
         };
 
         lower_layer {
@@ -65,16 +65,16 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&trans     &kp F1  &kp F2            &kp F3        &kp F4            &kp F5                                     &kp F6            &kp F7             &kp F8                &kp F9                 &kp F10        &kp F11
-&trans     &trans  &trans            &trans        &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES                          &trans            &trans             &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans         &kp F12
+&none      &kp F1  &kp F2            &kp F3        &kp F4            &kp F5                                     &kp F6            &kp F7             &kp F8                &kp F9                 &kp F10        &kp F11
+&none      &none   &none             &kp TILDE     &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES                          &none             &none              &kp LEFT_BRACE        &kp RIGHT_BRACE        &none          &kp F12
 &kp GRAVE  &kp AT  &kp ASTRK         &kp HASH      &kp DOLLAR        &kp PLUS                                   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH      &kp PIPE
-&trans     &trans  &trans            &kp PERCENT   &kp EQUAL         &kp MINUS          &trans       &trans     &trans            &trans             &kp SEMI              &kp COLON              &kp BACKSLASH  &trans
+&none      &none   &none             &kp PERCENT   &kp EQUAL         &kp MINUS          &trans       &trans     &none             &none              &kp SEMI              &kp COLON              &kp BACKSLASH  &none
                    &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &mo 2              &kp ENTER    &kp SPACE  &mo 1             &kp RIGHT_CONTROL  &kp RIGHT_ALT         &kp RIGHT_COMMAND
             >;
 
             sensor-bindings =
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp C_NEXT C_PREV>;
+                <&inc_dec_kp C_PREV C_NEXT>;
         };
 
         raise_layer {
@@ -89,13 +89,15 @@
 
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3      &bt BT_SEL 4                          &trans     &trans             &trans         &trans         &trans   &trans
-&trans      &kp INS       &kp PSCRN     &kp K_CMENU   &trans            &trans                                &kp PG_UP  &trans             &kp UP         &trans         &kp N0   &trans
+&trans      &kp INS       &kp PSCRN     &kp K_CMENU   &trans            &trans                                &kp PG_UP  &trans             &kp UP         &trans         &trans   &trans
 &trans      &kp LALT      &kp LCTRL     &kp LSHFT     &trans            &kp CLCK                              &kp PG_DN  &kp LEFT           &kp DOWN       &kp RIGHT      &kp DEL  &kp BSPC
 &trans      &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE       &trans        &trans       &trans     &trans     &trans             &trans         &trans         &trans   &trans
                           &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &mo 2         &kp SPACE    &kp ENTER  &mo 1      &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
+                <&inc_dec_kp C_PREV C_NEXT>;
         };
 
         adjust_layer {
