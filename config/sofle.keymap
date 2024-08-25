@@ -92,7 +92,7 @@
 &trans      &kp INS       &kp PSCRN     &kp K_CMENU   &trans            &trans                                &kp PG_UP  &trans             &kp UP         &trans         &trans   &trans
 &trans      &kp LALT      &kp LCTRL     &kp LSHFT     &trans            &kp CLCK                              &kp PG_DN  &kp LEFT           &kp DOWN       &kp RIGHT      &kp DEL  &kp BSPC
 &trans      &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE       &trans        &trans       &trans     &trans     &trans             &trans         &trans         &trans   &trans
-                          &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &mo 2         &kp SPACE    &kp ENTER  &mo 1      &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI
+                          &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &mo 2         &kp ENTER    &kp SPACE  &mo 1      &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI
             >;
 
             sensor-bindings =
@@ -114,7 +114,7 @@
 &ext_power EP_TOG  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI   &rgb_ug RGB_EFF                                &none  &none              &none          &none          &none  &none
 &none              &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &none            &none             &none                                          &none  &none              &none          &none          &none  &none
 &none              &none            &none            &none            &none             &none            &rgb_ug RGB_TOG    &none      &none  &none              &none          &none          &none  &none
-                                    &kp LEFT_GUI     &kp LEFT_ALT     &kp LEFT_CONTROL  &mo 1            &kp SPACE          &kp SPACE  &mo 2  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI
+                                    &kp LEFT_GUI     &kp LEFT_ALT     &kp LEFT_CONTROL  &mo 1            &kp ENTER          &kp SPACE  &mo 2  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI
             >;
         };
     };
