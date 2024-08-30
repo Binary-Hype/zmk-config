@@ -65,11 +65,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&none      &kp F1  &kp F2            &kp F3        &kp F4            &kp F5                                     &kp F6            &kp F7             &kp F8                &kp F9                 &kp F10        &kp F11
-&none      &none   &kp NON_US_HASH   &kp TILDE2    &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES                          &none             &none              &kp LEFT_BRACE        &kp RIGHT_BRACE        &none          &kp F12
-&kp GRAVE  &kp AT  &kp ASTRK         &kp HASH      &kp DOLLAR        &kp PLUS                                   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH      &kp PIPE
-&none      &none   &none             &kp PERCENT   &kp EQUAL         &kp MINUS          &trans       &trans     &none             &none              &kp SEMI              &kp COLON              &kp BACKSLASH  &none
-                   &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &mo 2              &kp ENTER    &kp SPACE  &mo 1             &kp RIGHT_CONTROL  &kp RIGHT_ALT         &kp RIGHT_COMMAND
+&none      &kp F1      &kp F2            &kp F3         &kp F4            &kp F5                                     &kp F6            &kp F7             &kp F8                &kp F9                 &kp F10        &kp F11
+&none      &kp TILDE2  &kp NON_US_HASH   &kp AMPERSAND  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES                          &none             &none              &kp LEFT_BRACE        &kp RIGHT_BRACE        &none          &kp F12
+&kp GRAVE  &kp AT      &kp ASTRK         &kp HASH       &kp DOLLAR        &kp PLUS                                   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH      &kp PIPE
+&none      &none       &none             &kp PERCENT    &kp EQUAL         &kp MINUS          &trans       &trans     &none             &none              &kp SEMI              &kp COLON              &kp BACKSLASH  &none
+                       &kp LEFT_COMMAND  &kp LEFT_ALT   &kp LEFT_CONTROL  &mo 2              &kp ENTER    &kp SPACE  &mo 1             &kp RIGHT_CONTROL  &kp RIGHT_ALT         &kp RIGHT_COMMAND
             >;
 
             sensor-bindings =
