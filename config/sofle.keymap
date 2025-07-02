@@ -45,7 +45,7 @@
 &kp ESCAPE  &kp DE_1  &kp DE_2     &kp DE_3    &kp DE_4    &kp DE_5                                      &kp DE_6      &kp DE_7          &kp DE_8      &kp DE_9      &kp DE_0     &kp DE_SS
 &kp CARET   &kp DE_Q  &kp DE_W     &kp DE_E    &kp DE_R    &kp DE_T                                      &kp DE_Z      &kp DE_U          &kp DE_I      &kp DE_O      &kp P        &kp BSPC
 &kp TAB     &kp DE_A  &kp DE_S     &kp DE_D    &kp DE_F    &kp DE_G                                      &kp DE_H      &kp DE_J          &kp DE_K      &kp DE_L      &none        &kp DELETE
-&kp LSHFT   &kp DE_Y  &kp DE_X     &kp DE_C    &kp DE_V    &kp DE_B      &kp C_MUTE    &kp C_PLAY_PAUSE  &kpDE_ N      &kp DE_M          &kp DE_COMM   &kp DE_DOT    &kp DE_MINS  &kp RSHFT
+&kp LSHFT   &kp DE_Y  &kp DE_X     &kp DE_C    &kp DE_V    &kp DE_B      &kp C_MUTE    &kp C_PLAY_PAUSE  &kp DE_N      &kp DE_M          &kp DE_COMM   &kp DE_DOT    &kp DE_MINS  &kp RSHFT
                       &kp LCTRL    &kp LALT    &kp LGUI    &mo RAISE  &kp SPACE             &kp SPACE    &mo LOWER  &kp RIGHT_GUI  &kp RALT   &kp RCTRL
             >;
 
