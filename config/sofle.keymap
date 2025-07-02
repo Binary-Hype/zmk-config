@@ -12,8 +12,8 @@
 #include "keys_german.h"
 
 #define BASE 0
-#define LOWER 1
-#define RAISE 2
+#define RAISE 1
+#define LOWER 2
 #define ADJUST 3
 
 / {
